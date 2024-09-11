@@ -104,7 +104,7 @@ jobs:
         OPENWRT_VER: $(date +"%Y.%m.%d")
         SW_FLOWOFFLOAD: 0
         SFE_FLOW: 0
-        ENABLE_WIFI_K510: 0
+        ENABLE_WIFI_K510: 1
 
     - name: 生成发布标签
       if: ${{ env.PACKAGED_STATUS == 'success' }} && !cancelled()
@@ -122,7 +122,7 @@ jobs:
 
         ⏱️ 编译时间: $(date +"%Y年%m月%d日%H时%M分")
 
-        🌐 管理地址: 192.168.68.68
+        🌐 管理地址: 192.168.0.2
 
         👤 用户名: root
 
