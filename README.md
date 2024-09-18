@@ -3,12 +3,13 @@
 固件包含默认皮肤、完整 IPv6 支持，以及下列 luci-app：<br>
 - 添加 amlogic
 - 添加 dockerman
-- <del>添加 Mosdns </del>
-- <del>添加 Pushbot </del>
+- 添加 Mosdns 
+- 添加 Pushbot 
 - 添加 OpenClash
 - 添加 易有云
-- <del>添加 阿里DDNS </del>
-- <del> 添加 网络唤醒 <del>
+- adguardhome
+- homeproxy
+- 添加 网络唤醒
 - 添加 lucky大吉
 - 添加 微信推送
 ***
